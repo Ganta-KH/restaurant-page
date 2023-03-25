@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+* {
+    font-family: 'Righteous';
+}
+
+html, body {
+    height: 100%;
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    background-color: #FFF4E0;
+}
+
+h1 {
+    font-family: 'Satisfy';
+    color: #B46060;
+}
+
+header {
+    background-color: #4D4D4D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 2.5rem;
+}
+
+header h1 {
+    font-size: 54px;
+    margin: 0;
+}
+
+a {
+    color: #FFBF9B;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    color: #B46060;
+}
+
+.main {
+    flex: 1;
+    background-image: url("spiceandsmoke.jpg");
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.about {
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+}
+
+a.order {
+    background-color: #4D4D4D;
+    padding: 6px 24px;
+    border-radius: 20px;
+}
+
+a.order:hover {
+    color: #B46060;
+    transform: scale(1.05);
+    transition: 0.1s;
+}
