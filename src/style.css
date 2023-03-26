@@ -20,7 +20,7 @@ body {
     background-color: #FFF4E0;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Satisfy';
     color: #B46060;
 }
@@ -94,7 +94,23 @@ a.order:hover {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 75%;
+    margin: 50px;
+    min-height: 75%;
     width: 75%;
     border: 1px solid black;
+    gap: 15px;
+    padding: 20px;
+}
+
+.dish {
+    display: flex;
+}
+
+.dish-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 36px;
+}
+
+.dish-info > p {
+    color: #FFBF9B;
 }
