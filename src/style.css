@@ -71,7 +71,7 @@ li a:hover {
 }
 
 h1.about {
-    color: #000;
+    color: #FFBF9B;
     font-size: 40px;
     text-align: center;
 }
@@ -86,4 +86,15 @@ a.order:hover {
     color: #B46060;
     transform: scale(1.05);
     transition: 0.1s;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 75%;
+    width: 75%;
+    border: 1px solid black;
 }
