@@ -104,13 +104,19 @@ a.order:hover {
 
 .dish {
     display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 36px;
+    gap: 18px;
 }
 
 .dish-info {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 36px;
+    
 }
 
 .dish-info > p {
     color: #FFBF9B;
+}
+
+.dish > img {
+    height: 125px;
 }
