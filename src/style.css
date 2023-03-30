@@ -44,13 +44,16 @@ header h1 {
     margin: 0;
 }
 
-a {
+button {
     color: #FFBF9B;
     text-decoration: none;
     font-size: 20px;
+    border: none;
+    background-color: #4D4D4D;
+    cursor: pointer;
 }
 
-li a:hover {
+li button:hover {
     color: #B46060;
 }
 
@@ -76,13 +79,13 @@ h1.about {
     text-align: center;
 }
 
-a.order {
+button.order {
     background-color: #4D4D4D;
     padding: 6px 24px;
     border-radius: 20px;
 }
 
-a.order:hover {
+button.order:hover {
     color: #B46060;
     transform: scale(1.05);
     transition: 0.1s;
