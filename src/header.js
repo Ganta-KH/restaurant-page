@@ -7,6 +7,8 @@ function createHeader() {
 
     header.appendChild(logo);
     header.appendChild(createNav());
+
+    return header;
 }
 
 function createNav() {
@@ -30,4 +32,14 @@ function createNav() {
     ul.appendChild(homeLi);
     ul.appendChild(menuLi);
     ul.appendChild(contactLi);
+
+    return ul;
 }
+
+function initHeader() {
+    const content = document.getElementById("content");
+
+    content.appendChild(createHeader());
+}
+
+export default initHeader;

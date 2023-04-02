@@ -1,1 +1,3 @@
-console.log("Hello");
+import initHeader from "./header";
+
+initHeader();
