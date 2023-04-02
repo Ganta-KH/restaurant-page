@@ -1,3 +1,3 @@
-import initHeader from "./header";
+import initWebsite from "./website";
 
-initHeader();
+initWebsite();

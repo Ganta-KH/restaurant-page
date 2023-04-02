@@ -42,4 +42,4 @@ function initHeader() {
     content.appendChild(createHeader());
 }
 
-export default initHeader;
+export default createHeader;
