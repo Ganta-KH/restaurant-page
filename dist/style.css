@@ -14,11 +14,10 @@ html, body {
     display: flex;
     flex-direction: column;
 
-    background-image: url("images/spiceandsmoke.jpg");
-    /* Full height */
+    background-image: url("../src/images/spiceandsmoke.jpg");
+    
     height: 100%; 
     
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
