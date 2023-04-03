@@ -1,11 +1,12 @@
 import createHeader from "./header";
 import createHome from "./home";
+import createMenu from "./menu";
 
 function createContent() {
     const main = document.createElement("main");
     main.classList.add("main");
 
-    main.appendChild(createHome());
+    main.appendChild(createMenu());
 
     return main;
 }
