@@ -14,7 +14,7 @@ html, body {
     display: flex;
     flex-direction: column;
 
-    background-image: url("../src/images/spiceandsmoke.jpg");
+    background-image: url("./images/spiceandsmoke.jpg");
     
     height: 100%; 
     
