@@ -14,7 +14,7 @@ function createDish() {
     dish.classList.add("dish");
 
     const dishImg = document.createElement("img");
-    dishImg.src = "../dist/images/bbq.png";
+    dishImg.src = "./images/bbq.png";
     dishImg.alt = "Dish Image";
 
     const dishInfo = document.createElement("div");
