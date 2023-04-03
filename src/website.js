@@ -1,15 +1,24 @@
 import createHeader from "./header";
 import createHome from "./home";
-import createMenu from "./menu";
-import createContact from "./contact";
 
 function createContent() {
     const main = document.createElement("main");
     main.classList.add("main");
 
-    main.appendChild(createContact());
+    main.appendChild(createHome());
 
     return main;
+}
+
+function clearMain() {
+    const main = document.querySelector("main");
+    main.innerHTML = "";
+}
+
+function fillMain(page) {
+    const main = document.querySelector("main");
+
+    main.appendChild(page);
 }
 
 function initWebsite() {
@@ -19,4 +28,5 @@ function initWebsite() {
     content.appendChild(createContent());
 }
 
+export { clearMain, fillMain };
 export default initWebsite;
