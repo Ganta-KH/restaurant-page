@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+* {
+    font-family: 'Righteous';
+}
+
+html, body {
+    height: 100%;
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("../src/images/spiceandsmoke.jpg");
+    
+    height: 100%; 
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    background-color: #FFF4E0;
+}
+
+h1, h2 {
+    font-family: 'Satisfy';
+    color: #B46060;
+}
+
+header {
+    background-color: #4D4D4D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 2.5rem;
+}
+
+header h1 {
+    font-size: 54px;
+    margin: 0;
+}
+
+button {
+    color: #FFBF9B;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    background-color: #4D4D4D;
+    cursor: pointer;
+}
+
+li button:hover {
+    color: #B46060;
+}
+
+.main {
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.about {
+    color: #FFBF9B;
+    font-size: 40px;
+    text-align: center;
+}
+
+button.order {
+    background-color: #4D4D4D;
+    padding: 6px 24px;
+    border-radius: 20px;
+}
+
+button.order:hover {
+    color: #B46060;
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 50px;
+    min-height: 75%;
+    width: 75%;
+    border: 1px solid black;
+    gap: 15px;
+    padding: 20px;
+}
+
+.dish {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 36px;
+    gap: 18px;
+}
+
+.dish-info > p {
+    color: #FFBF9B;
+}
+
+.dish > img {
+    height: 125px;
+}
